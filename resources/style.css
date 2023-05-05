@@ -1,0 +1,578 @@
+/* Details */
+
+.section-title-line{
+    border-top: 5px solid white;
+    padding-left:5%;
+    padding-right:5%;
+    width:10%;
+    margin:0 auto;
+}
+
+.up{
+    background-color: white;
+    text-align:center;
+    position: fixed;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    bottom:4%;
+    right:2%;
+    padding-top:6px;
+    z-index:10;
+}
+
+/* Navigation */
+
+#navigation{
+    color: #fff;
+}
+
+.container-fluid{
+    padding:0;
+    margin:0;
+}
+
+.navbar{
+    background-color: #87CBB9;
+    padding:1% 1%;
+}
+
+.navbar-brand{
+    font-family: 'Castoro Titling', cursive;
+    font-size:2.5rem;
+    margin:2% 2%;
+}
+
+.nav-item{
+    padding:0 18px;
+    font-size:1.3rem;
+}
+
+/*Title page*/
+
+.title{
+    padding-top: 100px;
+    background: rgb(135,203,185);
+    background: linear-gradient(180deg, rgba(135,203,185,1) 0%, rgba(174,244,246,1) 50%, rgba(241,255,254,1) 100%);
+}
+
+.top-cloud {
+    padding-top:4rem;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    z-index:0;
+}
+  
+.bottom-cloud {
+    padding-top:4rem;
+    position: absolute;
+    left: 15%;
+    bottom: 40%;
+    z-index:0;
+}
+
+.title-text h2{
+    font-family: 'Pacifico', cursive;
+    font-size:5rem;
+    text-align:center;
+    padding-top:1rem;
+}
+
+
+.mountain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*About Me */
+
+.about-me-image{
+    width: auto; 
+    height: 100%; 
+    margin-left: -20px;
+}
+
+.profile-image-container{
+    width: 310px; 
+    height: 310px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    margin:5% auto;
+}
+
+h5{
+    margin-top:14%;
+    margin-left:-10%;
+    margin-right:8%;
+    margin-bottom:5%;
+    font-size:1.5rem;
+    line-height:2rem;
+}
+
+#about-me{
+    background: #72ac9c;
+    color:white;
+}
+
+h3{
+    padding:5%;
+    padding-bottom:0%;
+    font-family: 'Castoro Titling', cursive;
+    font-size:2.5rem;
+    text-align:center;
+}
+
+.about-me-row{
+    padding:3%;
+    padding-bottom:1%;
+}
+
+.carousel-info{
+    text-align:center;
+}
+
+.carousel-item{
+    padding:3% 15%;
+}
+
+.carousel-item-content h2{
+    font-size:2rem;
+    padding:2% 2%;
+}
+
+.carousel-indicators{
+    margin-top:40px;
+}
+
+.sep-line{
+    border-top: 4px solid white;
+    padding-left:5%;
+    padding-right:5%;
+    width:90%;
+    margin:0 auto;
+}
+
+.carousel-item-title{
+    font-size:1.4rem;
+    font-weight:bold;
+
+}
+
+
+/* Education 
+background-color: #87CBB9;*/
+
+#education{
+    background-color: #7cbbaa;
+    color:white;
+    
+}
+
+.education-content{
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+
+/* */
+.resume-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #72ac9c;
+    position: relative;
+}
+  
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+  
+.resume-item h6 {
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #72ac9c;
+}
+
+.resume-item ul {
+    padding-left: 20px;
+}
+  
+.resume-item ul li {
+    padding-bottom: 10px;
+}
+  
+.resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #72ac9c;
+}
+
+/* Skills */
+
+#skills{
+    background: #83c5b3;
+    color:white;
+}
+
+.pl-row{
+    text-align:center;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.pl{
+    padding-top:5%;
+}
+
+.skills-description{
+    text-align:center;
+    font-size:1.5rem;
+    padding-bottom:5%;
+}
+
+.skills-section-title{
+    font-family: 'Castoro Titling', cursive;
+    font-size:1.7rem;
+    padding-top:7%;
+    text-align: center;
+}
+
+.sep-line-skills{
+    padding-bottom:5%;
+}
+
+.skills-content{
+    padding-bottom:5%;
+}
+
+
+
+/* Portfolio */
+
+#portfolio{
+    background-color: #8dd4c0;
+    color:white;
+    padding-bottom:3.5rem;
+}
+
+.project-row{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.project-col{
+    padding-top:5%;
+    text-align:center;
+}
+
+.project-title{
+    font-size:1.5rem;
+    padding:0;
+    margin:0;
+}
+
+.project-container{
+    width:100%;
+    height:auto;
+    position:relative;
+    text-align:center;
+}
+
+.project-image{
+    width:100%;
+    height:auto;
+    border:3px solid white;
+    border-radius: 5%;
+}
+
+.description-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .3s, visibility .3s;
+  padding:5%;
+  border-radius: 5%;
+}
+
+.description-overlay ul{
+    padding-left:0;
+}
+
+.description-overlay ul>li{
+    list-style-type: none;
+    display: inline;
+    border:1px solid white;
+    border-radius:10%;
+    background-color: #72ac9c;
+    color: white;
+    padding:1%;
+    margin-left:0;
+}
+
+
+.project-container:hover .description-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-description{
+    margin-bottom:1%;
+}
+.secrets-app-container{
+    width:100%;
+    height:auto;
+    position:relative;
+}
+
+.secrets-app-image{
+    width:100%;
+    height:auto;
+    border:3px solid white;
+    border-radius: 5%;
+}
+
+.secrets-app-container:hover .description-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.project-text-container{
+    padding-top:10%;
+    text-align:center;
+}
+
+.btn{
+    margin-top:10%;
+}
+
+.fullstack-text-container{
+    width:100%;
+    height:auto;
+    position:relative;
+    text-align:center;
+    padding-top:10%;
+}
+
+.mobile-app .project-title{
+    padding-bottom:15%;
+}
+
+
+/* Contact */
+
+#contact{
+    background: #97e2cd;
+    background: #775539;
+    color:white;
+}
+
+.contact-row{
+    padding:5%;
+}
+
+.submit-btn{
+    margin-top:5%;
+}
+
+.email-text{
+    font-size:1.5rem;
+}
+
+.my-email{
+    font-size:1.2rem;
+}
+
+.deets-item{
+    padding-bottom:5%;
+}
+
+
+/*Footer*/
+
+#footer{
+    background-color: #4e3826;
+    text-align:center;
+    color:white;
+    font-size:1rem;
+    padding:5%;
+}
+
+
+/*Media Responsive*/
+
+@media screen and (max-width: 990px){
+
+    .navbar-toggler{
+        margin-right:2rem;
+        
+    }
+
+    .mountain{
+        margin-right:5%;
+        margin-bottom:0;
+        padding-bottom:0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-me-image{
+        width: auto; 
+        height: 100%; 
+        padding:0 auto;
+
+    }
+
+    h5{
+        margin:5% 5%;
+    }
+
+    .pl-row{
+        padding-left:0%;
+    }
+
+    .skills-section-title{
+        padding-top:15%;
+    }
+
+    .deets{
+        display:flex;
+        text-align:center;
+        
+    }
+
+    .deets-item{
+        width:50%;
+        padding-top:5%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1212px){
+
+    .project-text-container{
+        visibility:hidden;
+        opacity:0;
+    }
+
+    .btn{
+        position:absolute;
+        bottom:20%;
+        left:33%;
+    }
+
+    .btn-fullstack{
+        position:absolute;
+        bottom:15%;
+        left:40%;
+    }
+
+    .btn-mobile{
+        position:absolute;
+        bottom:10%;
+        left:29%;
+    }
+
+    .project-description{
+        visibility:hidden;
+        opacity:0;
+    }
+
+    .submit-btn{
+        position:static;
+    }
+    
+
+}
+
+@media screen and (max-width: 510px){
+
+    .up{
+        visibility:hidden;
+        opacity:0;
+    }
+
+    .btn-fullstack{
+        position:absolute;
+        bottom:16%;
+        left:40%;
+    }
+
+}
+
+@media screen and (min-width: 1212px) and (max-width:1250px){
+    .mobile-app .project-title{
+        padding-bottom:2%;
+    }
+}
+
+@media screen and (max-width:767px){
+
+    .mobile-app .project-title{
+        font-size:160%;
+    }
+
+    .mobile-app .description-overlay{
+        font-size:160%;
+    }
+
+    .mobile-app ul{
+        padding-bottom:5%;
+    }
+
+    .mobile-app .btn{
+        font-size:120%;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+    .deets{
+        display:block;
+       
+    }
+
+    .deets-item{
+        margin:0 auto;
+    }
+}
